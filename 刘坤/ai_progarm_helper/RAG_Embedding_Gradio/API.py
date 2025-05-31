@@ -16,7 +16,7 @@ payload = {
     ],
 }
 headers = {
-    "Authorization": "Bearer sk-ozitaytcsoxjuiutcvkwutviquhayvxfthzoqipcipirgnnf",
+    "Authorization": "Bearer <your_key>",
     "Content-Type": "application/json"
 }
 response = requests.request("POST", url, json=payload, headers=headers)
@@ -29,7 +29,7 @@ payload = {
     "encoding_format": "float"
 }
 headers = {
-    "Authorization":"Bearer sk-ozitaytcsoxjuiutcvkwutviquhayvxfthzoqipcipirgnnf",
+    "Authorization":"Bearer <your_key>",
     "Content-Type": "application/json"
 }
 
