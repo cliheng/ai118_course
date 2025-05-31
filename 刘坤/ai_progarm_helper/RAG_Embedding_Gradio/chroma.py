@@ -12,7 +12,7 @@ def get_embedding(text):
         "encoding_format": "float"
     }
     headers = {
-        "Authorization": "Bearer sk-ozitaytcsoxjuiutcvkwutviquhayvxfthzoqipcipirgnnf",
+        "Authorization": "Bearer <your_key>",
         "Content-Type": "application/json"
     }
     
