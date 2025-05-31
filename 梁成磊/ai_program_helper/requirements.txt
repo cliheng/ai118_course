@@ -1,0 +1,9 @@
+gradio
+pdfminer.six
+python-docx
+openpyxl
+transformers
+torch
+modelscope
+dashscope
+openai
