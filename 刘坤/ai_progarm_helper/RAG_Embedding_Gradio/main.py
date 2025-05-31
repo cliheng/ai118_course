@@ -8,8 +8,8 @@ import numpy as np
 
 # API配置
 openai_client = OpenAI(
-    api_key="7hXKam!8%4(3Dv9X&b3LF&J",
-    base_url="http://142.171.230.23:54638/v1"
+    api_key="<your_api_key>",
+    base_url="<your_url>"
 )
 
 def check_database():
@@ -41,7 +41,7 @@ def get_embedding(text):
         "encoding_format": "float"
     }
     headers = {
-        "Authorization": "Bearer sk-ozitaytcsoxjuiutcvkwutviquhayvxfthzoqipcipirgnnf",
+        "Authorization": "Bearer <your_key>",
         "Content-Type": "application/json"
     }
     
