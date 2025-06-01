@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>司马懿 - 资深全栈工程师</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#" class="logo">司马懿</a>
+            <ul class="nav-links">
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#experience">经历</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#education">教育</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首屏展示 -->
+    <header class="hero">
+        <div class="container">
+            <h1 class="hero-title">司马懿</h1>
+            <h2 class="hero-subtitle">资深全栈工程师</h2>
+            <p class="hero-description">专注于高性能分布式系统与云原生架构，8年互联网行业经验</p>
+            <a href="#contact" class="btn">联系我</a>
+        </div>
+    </header>
+
+    <!-- 关于我 -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>资深全栈工程师，8年互联网行业经验，专注于高性能分布式系统与云原生架构。精通Go/Python/Java开发，擅长Kubernetes、微服务、大数据处理，主导过百万级用户规模的系统优化，成功提升40%并发处理能力。</p>
+                    <p>热爱开源，曾向Apache Kafka贡献代码。技术领导力强，带领10+人团队完成多个企业级项目交付。</p>
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <i class="fas fa-birthday-cake"></i>
+                            <span>1990年5月15日</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>18834172568</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>yangruguo0@outlook.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>山西省马来西亚</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 专业经历 -->
+    <section id="experience" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">专业经历</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2019.07 - 至今</div>
+                    <div class="timeline-content">
+                        <h3>字节跳动</h3>
+                        <h4>高级后端工程师</h4>
+                        <ul>
+                            <li>主导TikTok推荐系统架构优化，采用Go + gRPC + Redis Cluster重构核心服务，QPS提升50%，延迟降低30%</li>
+                            <li>设计并实现AB测试平台，支持日均10亿+请求，助力算法团队优化推荐策略，DAU增长15%</li>
+                            <li>带领5人团队完成Kubernetes集群迁移，优化资源利用率，年节省$2M云计算成本</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2015.07 - 2019.06</div>
+                    <div class="timeline-content">
+                        <h3>阿里巴巴</h3>
+                        <h4>软件工程师</h4>
+                        <ul>
+                            <li>参与阿里云CDN核心引擎开发，优化缓存策略，命中率提升25%，减少20%回源带宽</li>
+                            <li>开发分布式日志分析系统（基于Elasticsearch + Flink），日均处理10TB数据，支持实时监控与故障排查</li>
+                            <li>获2018年度优秀员工奖（Top 5%）</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能 -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">专业技能</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>编程语言</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Go (Golang)</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>技术框架</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Kubernetes</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Django</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Spring Boot</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>gRPC</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>数据库</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>云计算/DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Terraform</span>
+                        <span class="skill-tag">Prometheus</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目展示 -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">项目展示</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/2c3e50/ffffff?text=Distributed+System" alt="分布式实时风控系统">
+                    </div>
+                    <div class="project-content">
+                        <h3>分布式实时风控系统</h3>
+                        <span class="project-role">架构师 | 2022.01 - 2023.03</span>
+                        <p>为金融科技公司设计高并发风控引擎，实时检测欺诈交易，日均处理5000万+请求，误判率低于0.1%</p>
+                        <div class="project-tech">
+                            <span>Go</span>
+                            <span>Kafka</span>
+                            <span>Flink</span>
+                            <span>Redis</span>
+                        </div>
+                        <div class="project-result">
+                            <i class="fas fa-trophy"></i>
+                            <span>系统上线后，欺诈损失减少60%，获公司年度技术创新奖</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/2c3e50/ffffff?text=AIOps" alt="智能运维AIOps平台">
+                    </div>
+                    <div class="project-content">
+                        <h3>智能运维AIOps平台</h3>
+                        <span class="project-role">核心开发者 | 2020.05 - 2021.12</span>
+                        <p>基于机器学习预测服务器故障，自动触发告警与修复，减少40%人工运维成本</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>Prometheus</span>
+                            <span>Grafana</span>
+                        </div>
+                        <div class="project-result">
+                            <i class="fas fa-trophy"></i>
+                            <span>获2021年中国云计算大会最佳案例奖</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 教育背景 -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">教育背景</h2>
+            <div class="education-container">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>清华大学</h3>
+                        <h4>计算机科学与技术 | 硕士</h4>
+                        <span class="education-date">2012.09 - 2015.06</span>
+                        <p>相关课程：分布式系统、算法设计与分析、机器学习、数据库原理、计算机网络</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>北京大学</h3>
+                        <h4>软件工程 | 学士</h4>
+                        <span class="education-date">2008.09 - 2012.06</span>
+                        <p>相关课程：数据结构、操作系统、编译原理、人工智能</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 证书 -->
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">证书与荣誉</h2>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>AWS Certified Solutions Architect - Professional</h3>
+                    <p>Amazon | 2022</p>
+                </div>
+                <div class="certificate-card">
+                    <i class="fas fa-award"></i>
+                    <h3>国家科技进步二等奖</h3>
+                    <p>中国科技部 | 2020</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>邮箱</h3>
+                            <p>yangruguo0@outlook.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>电话</h3>
+                            <p>18834172568</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>地址</h3>
+                            <p>山西省马来西亚</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-weixin"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="您的姓名" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="您的邮箱" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="主题">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="您的消息" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">发送消息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#">司马懿</a>
+                    <p>资深全栈工程师</p>
+                </div>
+                <div class="footer-links">
+                    <h3>快速链接</h3>
+                    <ul>
+                        <li><a href="#about">关于我</a></li>
+                        <li><a href="#experience">经历</a></li>
+                        <li><a href="#skills">技能</a></li>
+                        <li><a href="#projects">项目</a></li>
+                        <li><a href="#education">教育</a></li>
+                        <li><a href="#contact">联系</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>联系方式</h3>
+                    <p><i class="fas fa-envelope"></i> yangruguo0@outlook.com</p>
+                    <p><i class="fas fa-phone"></i> 18834172568</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 司马懿. 保留所有权利.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
