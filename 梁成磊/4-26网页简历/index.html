@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>梁成磊 - 全栈开发者</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="#" class="logo">梁<span>成</span>磊</a>
+            <button class="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#experience">专业经历</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#education">教育</a></li>
+                <li><a href="#contact">联系我</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 首屏展示 -->
+    <section id="home" class="hero">
+        <div class="hero-shapes">
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>梁成磊</h1>
+                <h2>全栈开发者</h2>
+                <p>熟悉Vue与Node.js，参加过电商平台开发，擅长复杂业务场景的技术方案设计。</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn">联系我</a>
+                    <a href="#projects" class="btn btn-secondary">查看项目</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-container">
+                <div class="about-img">
+                    <img src="https://via.placeholder.com/600x600" alt="">
+                </div>
+                <div class="about-content">
+                    <h3>全栈开发者</h3>
+                    <p>我是一名经验丰富的全栈开发者，专注于构建高性能、可扩展的Web应用程序。擅长使用现代前端框架解决复杂问题。</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-user"></i>
+                            <div>
+                                <strong>姓名</strong>
+                                <p>梁成磊</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>电话</strong>
+                                <p>+86 123-4567-8901</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>邮箱</strong>
+                                <p>liangcl@email.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>地址</strong>
+                                <p>北京市海淀区</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p>我对技术充满热情，喜欢学习新事物并解决具有挑战性的问题。在团队合作中，我注重沟通与协作，能够高效地完成项目目标。</p>
+                    <a href="#" class="btn">下载简历</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 专业经历 -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2 class="section-title">专业经历</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2021.07 - 至今</div>
+                        <h3 class="timeline-title">国泰新点软件 - 前端工程师</h3>
+                        <p class="timeline-text">
+                            - 编写Vue组件库，减少重复代码量70%<br>
+                            - 参与技术方案设计与评审，优化开发流程<br>
+                            - 指导新人快速上手项目和技术栈
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2019.06 - 2021.06</div>
+                        <h3 class="timeline-title">某科技公司 - 前端开发工程师</h3>
+                        <p class="timeline-text">
+                            - 负责公司核心产品的前端开发与维护<br>
+                            - 使用React重构旧版管理系统，提升用户体验<br>
+                            - 实现数据可视化功能，帮助客户更好地理解数据<br>
+                            - 优化前端性能，减少首屏加载时间30%
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能 -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">我的技能</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>技术技能</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Vue.js</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">React</span>
+                            <span class="skill-percent">65%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Node.js</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">JypeScript</span>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>其他技能</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">团队协作</span>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">问题解决</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">沟通能力</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">英语 (CET-4)</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目展示 -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">项目经验</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/600x400" alt="电商中台系统">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">电商中台系统</h3>
+                        <span class="project-date">2023.01 - 2023.12</span>
+                        <p class="project-text">
+                            采用微前端架构整合5个子系统，支持500+商家的供应链管理。项目实现了订单、库存、物流的统一管理，提高了运营效率。
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Vue.js</span>
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">微前端</span>
+                            <span class="project-tag">JypeScript</span>
+                        </div>
+                        <a href="#" class="btn">查看详情</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/600x400" alt="抖音商家后台系统">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">政务微信前端功能实现</h3>
+                        <span class="project-date">2022.03 - 2022.12</span>
+                        <p class="project-text">
+                            实现相关功能，在政务人员在使用政务微信相关功能时能够正常使用。将项目测试过程中出现的异常进行debug。
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Ant Design</span>
+                            <span class="project-tag">性能优化</span>
+                        </div>
+                        <a href="#" class="btn">查看详情</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/600x400" alt="数据可视化平台">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">数据可视化平台</h3>
+                        <span class="project-date">2021.06 - 2021.12</span>
+                        <p class="project-text">
+                            开发基于ECharts的数据可视化平台，支持多种图表类型和交互方式，帮助客户更好地理解和分析业务数据。
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">ECharts</span>
+                            <span class="project-tag">D3.js</span>
+                            <span class="project-tag">数据可视化</span>
+                        </div>
+                        <a href="#" class="btn">查看详情</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 教育背景 -->
+    <section id="education" class="section education">
+        <div class="container">
+            <h2 class="section-title">教育背景</h2>
+            <div class="education-container">
+                <div class="education-item">
+                    <div class="education-date">
+                        <h4>2019.09 - 2023.06</h4>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree">信息与计算科学，学士</h3>
+                        <h4 class="education-institution">山东理工大学</h4>
+                        <p class="education-description">
+                            相关课程：数据结构、数学分析、计算机算法、操作系统、数据库原理、计算机网络
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>电话</h3>
+                            <p>+86 123-4567-8901</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"> <i class="fas fa-envelope"></i> </div>
+                        <div class="contact-text">
+                            <h3>邮箱</h3>
+                            <p>liangcl@email.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"> <i class="fas fa-map-marker-alt"></i> </div>
+                        <div class="contact-text">
+                            <h3>地址</h3>
+                            <p>北京市海淀区</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"> <i class="fas fa-certificate"></i> </div>
+                        <div class="contact-text">
+                            <h3>证书</h3>
+                            <p>阿里云ACE认证(2022)<br>公司年度技术之星(2023)</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group"> <input type="text" placeholder="您的姓名" required> </div>
+                    <div class="form-group"> <input type="email" placeholder="您的邮箱" required> </div>
+                    <div class="form-group"> <input type="text" placeholder="主题"> </div>
+                    <div class="form-group"> <textarea placeholder="您的留言" required></textarea> </div> <button
+                        type="submit" class="btn">发送消息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">梁<span>成</span>磊</div>
+            <ul class="footer-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#experience">经历</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+            <div class="footer-social">
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-weixin"></i></a>
+            </div>
+            <p class="footer-copyright">© 2023 梁成磊. 保留所有权利</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

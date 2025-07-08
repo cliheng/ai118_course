@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[冯琳琳] - 人工智能大模型开发工程师</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">[冯琳琳]</div>
+            <ul class="nav-links">
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#experience">专业经历</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#projects">项目展示</a></li>
+                <li><a href="#education">教育背景</a></li>
+                <li><a href="#contact">联系方式</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 首屏展示 -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <h1>[冯琳琳]</h1>
+            <h2>人工智能大模型开发工程师</h2>
+            <p>专注于大语言模型训练优化与多模态模型架构设计，致力于推动人工智能技术的前沿发展与工程落地。</p>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>关于我</h2>
+            <p>您好，我是[冯琳琳]，一名在人工智能领域深耕多年的开发工程师。我在大语言模型训练优化、多模态模型架构设计等方面积累了丰富的经验，具备从模型设计到业务闭环的全链路交付能力。我热爱探索技术的边界，同时也注重将前沿技术转化为实际应用，为行业带来创新与价值。</p>
+        </div>
+    </section>
+
+    <!-- 专业经历 -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2>专业经历</h2>
+            <div class="experience-item">
+                <h3>[字节科技（头部AI企业）]</h3>
+                <p>大模型开发工程师 | 2024.07 - 至今 | 北京</p>
+                <ul>
+                    <li>主导通用大模型迭代：负责公司自研千亿参数大模型[AlphaLLM-3.0]的训练与优化，通过混合精度训练+序列并行策略，将单卡训练速度提升30%，模型在MMLU、C-Eval等基准测试中准确率较2.0版本提升8%，支撑内部搜索、智能客服等6条业务线，覆盖50+企业客户。</li>
+                    <li>设计多模态大模型方案：牵头开发多模态大模型[VisionAlpha-1.0]，融合文本-图像-视频跨模态对齐，采用LoRA+QLoRA混合微调策略降低显存占用40%，在COCO、VQAv2等数据集上达到SOTA水平，落地电商商品智能推荐场景，用户点击率提升15%。</li>
+                    <li>优化大模型推理服务：基于vLLM实现千亿模型高效推理，设计动态批处理+流式输出方案，QPS提升2倍，单请求延迟从800ms降至300ms（token数1000），支撑日均10万+次API调用，年节省算力成本超200万元。</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>[XX研究院（AI实验室）]</h3>
+                <p>大模型算法实习生 | 2023.03-2024.06 | 北京</p>
+                <ul>
+                    <li>参与开源大模型优化：在LLaMA-2基础上，通过Rope位置编码改进+稀疏注意力机制，将长文本（8k tokens）生成效果提升12%（Perplexity指标），相关代码贡献至Hugging Face Transformers开源库（PR#1234）。</li>
+                    <li>构建大模型评估体系：设计包含功能（生成、推理）、安全（对齐、偏见）、效率（训练/推理成本）的三维评估框架，完成对GPT-3.5、Llama-2、Baichuan2等10+模型的对比评测，输出报告被实验室采纳为选型标准。</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能 -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>技能</h2>
+            <div class="skills-list">
+                <div class="skill-item">PyTorch 2.0+</div>
+                <div class="skill-item">Hugging Face Transformers</div>
+                                <div class="skill-item">DeepSpeed</div>
+                <div class="skill-item">TensorBoard</div>
+                <div class="skill-item">Weights & Biases</div>
+                <div class="skill-item">Docker/K8s</div>
+                <div class="skill-item">Megatron-LM</div>
+                <div class="skill-item">Colossal-AI</div>
+                <div class="skill-item">vLLM</div>
+                <div class="skill-item">Triton</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目展示 -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>项目展示</h2>
+            <div class="project-item">
+                <h3>企业级垂直领域大模型 - 金融版</h3>
+                <p>时间：2024.09-2024.12 | 技术栈：PyTorch/DeepSpeed/LangChain</p>
+                <ul>
+                    <li>数据层：构建金融领域高质量语料库（50GB），设计实体识别 + 关系抽取规则清洗噪声，提升数据有效率至 92%。</li>
+                    <li>模型层：基于 Llama-3-70B 进行领域微调，结合 LoRA + 全参数微调策略，在金融 NLI、文本分类等任务上准确率达 90%。</li>
+                    <li>应用层：通过 LangChain 封装工具链（整合 Wind / 同花顺 API），实现 “大模型 + 结构化数据” 联动，响应时间 < 2s。</li>
+                    <li>成果：模型上线后日均处理 3000 + 次业务请求，客户满意度 95%，获券商 “年度技术创新奖”。</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 教育背景 -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2>教育背景</h2>
+            <div class="education-item">
+                <h3>[清华大学]</h3>
+                <p>[博士] | [计算机科学与技术 / 人工智能]（2018.09-2024.06）</p>
+                <p>研究方向：大语言模型（LLM）训练优化、多模态模型架构设计</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>联系方式</h2>
+            <div class="contact-info">
+                <div>姓名：<span>[冯琳琳]</span></div>
+                <div>联系电话：<span>[188-8888-8888]</span></div>
+                <div>电子邮箱：<span>[linlinfeng@163.com]</span></div>
+                <div>地址：<span>[上海市浦东新区 / 北京市海淀区等]</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 [冯琳琳]。保留所有权利。</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

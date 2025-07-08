@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宋鹏鹏 - AI算法工程师</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="brand">宋鹏鹏</a>
+            <ul class="nav-links">
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#experience">工作经历</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#projects">项目经验</a></li>
+                <li><a href="#education">教育背景</a></li>
+                <li><a href="#contact">联系方式</a></li>
+            </ul>
+            <button class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 首屏展示 -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>宋鹏鹏</h1>
+            <h2>资深AI算法工程师</h2>
+            <p>拥有 4 年人工智能领域经验，主导过日处理千万级请求的智能系统架构设计。</p>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about">
+        <div class="section-container">
+            <h2 class="section-title">关于我</h2>
+            <p>拥有 4 年人工智能领域经验的资深研发工程师，主导过日处理千万级请求的智能系统架构设计。持有 CAAI 人工智能工程师认证，技术栈广泛覆盖 NLP（BERT/Transformer）、CV（YOLOv5/OpenMMLab）。擅长将前沿学术成果转化为实际工程应用，曾实现 95% 以上的算法指标提升，致力于通过 AI 技术解决实际业务问题。</p>
+        </div>
+    </section>
+
+    <!-- 专业经历 -->
+    <section id="experience">
+        <div class="section-container">
+            <h2 class="section-title">工作经历</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h3>字节跳动 - 自然语言处理工程师</h3>
+                        <div class="timeline-period">2021.07 - 至今</div>
+                    </div>
+                    <ul>
+                        <li>搭建基于 BERT 的多语言客服意图识别系统，运用动态量化技术将模型体积压缩 60%，QPS 提升至 5000+。</li>
+                        <li>设计增量学习框架有效解决数据漂移问题，使模型周级迭代效率提升 40%。</li>
+                        <li>主导 MLOps 平台开发，实现从数据标注到模型部署的全流程自动化，项目交付周期缩短 30%。</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h3>商汤科技 - 计算机视觉算法实习生</h3>
+                        <div class="timeline-period">2020.03 - 2021.06</div>
+                    </div>
+                    <ul>
+                        <li>开发工业质检异常检测模型，在 COCO 数据集上 mAP 达到 82.5%，远超行业基准 70%。</li>
+                        <li>参与模型蒸馏项目，将 ResNet - 152 参数量压缩 80%，且精度损失小于 2%。</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能 -->
+    <section id="skills">
+        <div class="section-container">
+            <h2 class="section-title">技能矩阵</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>核心技术</h3>
+                    <ul>
+                        <li>Python（PyTorch/TensorFlow）</li>
+                        <li>Transformer 微调</li>
+                        <li>模型蒸馏/量化</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>扩展技能</h3>
+                    <ul>
+                        <li>Docker/K8s 集群部署</li>
+                        <li>Prometheus 监控</li>
+                        <li>AWS SageMaker</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>语言能力</h3>
+                    <ul>
+                        <li>英语（CET - 6 580 分）</li>
+                        <li>日语（N2）</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目展示 -->
+    <section id="projects">
+        <div class="section-container">
+            <h2 class="section-title">项目经验</h2>
+            <div class="project-card">
+                <h3>智能金融文档解析系统 - 主程（2023）</h3>
+                <p>技术栈：LayoutLMv3 + Doccano 标注平台 + FastAPI</p>
+                <ul>
+                    <li>提出混合注意力机制解决表格结构识别问题，F1 - score 高达 91.2%。</li>
+                    <li>设计分布式任务调度模块，支持日均 100 万份 PDF 的并行处理。</li>
+                </ul>
+                <p>成果：获 2023 年公司创新技术奖，已申请专利（CN202310XXXXXX）。</p>
+            </div>
+            <div class="project-card">
+                <h3>跨模态商品搜索引擎 - 核心开发者（2022）</h3>
+                <p>技术栈：CLIP + Faiss 向量数据库 + React 前端</p>
+                <ul>
+                    <li>实现图文联合 Embedding 方案，搜索准确率提升 35%。</li>
+                    <li>开源项目获 GitHub 1.2k Stars，被 MLSysConf 2023 收录为 Demo 案例。</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 教育背景 -->
+    <section id="education">
+        <div class="section-container">
+            <h2 class="section-title">教育背景</h2>
+            <div class="education-item">
+                <h3>山西大同大学 - 物理学（新能源材料方向） | 学士学位（2016 - 2020）</h3>
+                <p>核心课程：计算物理（Python 数值模拟）、半导体材料（能带理论）、数学建模（MATLAB）</p>
+                <p>学术荣誉：2019 年获全国大学生数学建模竞赛省级二等奖</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section id="contact">
+        <div class="section-container">
+            <h2 class="section-title">联系方式</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> 联系电话：18235275789</p>
+                <p><i class="fas fa-envelope"></i> 电子邮箱：1820197234@qq.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> 地址：北京市顺义区</p>
+                <p><i class="fas fa-link"></i> 社交主页：<a href="https://song218-arch.github.io/">GitHub Portfolio</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 宋鹏鹏. 保留所有权利.</p>
+            <div class="social-links">
+                <a href="https://song218-arch.github.io/"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
