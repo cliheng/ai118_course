@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>尹皓 - 高级软件工程师</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#" class="logo">尹皓</a>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#experience">专业经历</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#education">教育</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首屏展示 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>尹皓</h1>
+            <h2>高级软件工程师</h2>
+            <p class="intro">专注于构建高效、可扩展的Web应用程序，拥有8年全栈开发经验</p>
+            <a href="#about" class="btn">了解更多</a>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>我是一名充满激情的高级软件工程师，专注于构建高效、可扩展的Web应用程序。拥有8年全栈开发经验，擅长JavaScript生态系统，包括React、Node.js和现代前端工具链。</p>
+                    <p>我热衷于解决复杂的技术挑战，并致力于编写干净、可维护的代码。在敏捷开发环境中表现出色，能够领导技术团队并指导初级开发人员。</p>
+                    <p>工作之余，我喜欢参与开源项目，学习新技术，并在技术社区分享知识。</p>
+                </div>
+                <div class="about-image">
+                    <!-- 替换为真实的个人照片 -->
+                    <img src="R-C.jpg" alt="尹皓的照片">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 专业经历 -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">专业经历</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2020 - 至今</div>
+                    <div class="timeline-content">
+                        <h3>高级软件工程师</h3>
+                        <h4>科技领先有限公司</h4>
+                        <ul>
+                            <li>带领一支由5名经验丰富的开发人员组成的团队，负责公司核心产品的端到端架构设计与实现，确保产品的高可用性和可扩展性。</li>
+                            <li>主导将前端架构从传统模式迁移到 React Hooks 和 Context API，通过性能优化，页面加载速度提升了 30%，显著提升了用户体验。</li>
+                            <li>成功实施微服务架构，将原本的单体应用拆分为5个独立的服务，实现了服务的独立部署和扩展，提高了开发效率和系统稳定性。</li>
+                            <li>引入自动化测试流程，涵盖单元测试、集成测试和端到端测试，将测试覆盖率从 40% 大幅提高到 85%，有效降低了生产环境的 bug 率。</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2016 - 2020</div>
+                    <div class="timeline-content">
+                        <h3>软件工程师</h3>
+                        <h4>创新解决方案公司</h4>
+                        <ul>
+                            <li>开发并维护多个企业级Web应用程序</li>
+                            <li>使用Node.js和Express重构后端API，减少响应时间40%</li>
+                            <li>实现CI/CD流程，将部署时间从2小时缩短到15分钟</li>
+                            <li>指导3名初级开发人员，提高团队整体技术水平</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2014 - 2016</div>
+                    <div class="timeline-content">
+                        <h3>初级开发人员</h3>
+                        <h4>数字创意工作室</h4>
+                        <ul>
+                            <li>参与多个客户项目的开发和维护</li>
+                            <li>使用AngularJS构建响应式用户界面</li>
+                            <li>优化数据库查询，将页面加载速度提高50%</li>
+                            <li>协助团队完成从传统服务器到云服务的迁移</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能 -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">技能</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>前端技术</h3>
+                    <div class="skill-item">
+                        <span>React</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript/TypeScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>HTML5/CSS3</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Redux</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>后端技术</h3>
+                    <div class="skill-item">
+                        <span>Node.js</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Express</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>MongoDB</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>RESTful API</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>其他技能</h3>
+                    <div class="skill-item">
+                        <span>Git</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Docker</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>敏捷开发</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>团队领导</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目展示 -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">项目展示</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- 替换为项目真实截图 -->
+                        <img src="R-B.jpg" alt="项目1">
+                    </div>
+                    <div class="project-content">
+                        <h3>企业资源规划系统</h3>
+                        <p>一个全面的ERP解决方案，整合了财务、人力资源和供应链管理模块。使用React前端和Node.js微服务架构。</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <a href="#" class="project-link">查看详情</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="R-D.jpg" alt="项目2">
+                    </div>
+                    <div class="project-content">
+                        <h3>电子商务平台</h3>
+                        <p>高性能电商网站，支持每日10万+访问量。实现了响应式设计、支付网关集成和个性化推荐系统。</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>Stripe API</span>
+                            <span>Redis</span>
+                        </div>
+                        <a href="#" class="project-link">查看详情</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="R=E.jpg" alt="项目3">
+                    </div>
+                    <div class="project-content">
+                        <h3>数据分析仪表板</h3>
+                        <p>实时数据可视化工具，用于监控关键业务指标。使用D3.js进行复杂数据可视化，后端处理大数据集。</p>
+                        <div class="project-tech">
+                            <span>D3.js</span>
+                            <span>Python</span>
+                            <span>WebSocket</span>
+                        </div>
+                        <a href="#" class="project-link">查看详情</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 教育背景 -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">教育背景</h2>
+            <div class="education-container">
+                <div class="education-item">
+                    <div class="education-date">2010 - 2014</div>
+                    <div class="education-content">
+                        <h3>计算机科学学士</h3>
+                        <h4>清华大学</h4>
+                        <p>主修计算机科学，辅修数学。GPA: 3.8/4.0。参与多个研究项目，发表2篇学术论文。</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-date">2014 - 2016</div>
+                    <div class="education-content">
+                        <h3>软件工程硕士</h3>
+                        <h4>北京大学</h4>
+                        <p>专注于软件架构和分布式系统。毕业论文获得学院最佳论文奖。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="certifications">
+                <h3>专业认证</h3>
+                <ul>
+                    <li>AWS认证解决方案架构师 - 专业级 (2021)</li>
+                    <li>Google专业数据工程师认证 (2020)</li>
+                    <li>Scrum联盟认证Scrum Master (2019)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>联系方式</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> zhang.san@example.com</li>
+                        <li><i class="fas fa-phone"></i> +86 138 1234 5678</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 北京市海淀区</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-weixin"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="您的姓名" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="您的邮箱" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="主题">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="您的消息" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">发送消息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 尹皓. 保留所有权利.</p>
+            <div class="footer-links">
+                <a href="#">隐私政策</a>
+                <a href="#">使用条款</a>
+                <a href="#home"><i class="fas fa-arrow-up"></i> 返回顶部</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

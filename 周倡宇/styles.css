@@ -1,0 +1,325 @@
+/* ===== RESET & BASE STYLES ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+
+body {
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* ===== LAYOUT CONTAINER ===== */
+.resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* ===== HEADER STYLES ===== */
+.header {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.header .contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.header .contact-item {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 6px 12px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.header .contact-item:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+.header .contact-item i {
+    margin-right: 8px;
+    font-size: 0.9rem;
+}
+
+/* ===== SECTION STYLES ===== */
+.section {
+    padding: 25px 30px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.section:last-child {
+    border-bottom: none;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+}
+
+.section-title i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: #6e8efb;
+}
+
+.section-title h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* ===== PROFILE SECTION ===== */
+.profile-text {
+    line-height: 1.8;
+    color: #555;
+    padding-left: 35px; /* Align with icon */
+}
+
+/* ===== TIMELINE ITEMS ===== */
+.timeline-item {
+    margin-bottom: 25px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.timeline-item:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 5px;
+    height: calc(100% - 30px);
+    width: 2px;
+    background: #6e8efb;
+}
+
+.timeline-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+}
+
+.timeline-header h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.timeline-header .date {
+    color: #777;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.timeline-subheader {
+    color: #555;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 0.95rem;
+}
+
+.timeline-content ul {
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+.timeline-content li {
+    margin-bottom: 8px;
+    position: relative;
+    left: 5px;
+}
+
+/* ===== SKILLS SECTION ===== */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill-category {
+    flex: 1;
+    min-width: 250px;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.skill-category h4 {
+    margin-bottom: 10px;
+    color: #4a4a4a;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.skill-item {
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.skill-name {
+    display: inline-block;
+    width: 100px;
+    font-weight: 500;
+    color: #666;
+}
+
+/* ===== PROJECTS SECTION ===== */
+.project-item {
+    margin-bottom: 25px;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+}
+
+.project-header h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.project-tech {
+    font-style: italic;
+    color: #555;
+    margin: 10px 0;
+    font-size: 0.9rem;
+}
+
+/* ===== CERTIFICATES SECTION ===== */
+.certificate-item {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #eee;
+}
+
+.certificate-item:last-child {
+    border-bottom: none;
+}
+
+.certificate-item h4 {
+    font-weight: 600;
+    color: #444;
+}
+
+.certificate-meta {
+    display: flex;
+    justify-content: space-between;
+    color: #777;
+    margin-top: 3px;
+    font-size: 0.9rem;
+}
+
+/* ===== FOOTER STYLES ===== */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.section {
+    animation: fadeIn 0.6s ease-out forwards;
+    opacity: 0;
+}
+
+.section:nth-child(2) { animation-delay: 0.1s; }
+.section:nth-child(3) { animation-delay: 0.2s; }
+.section:nth-child(4) { animation-delay: 0.3s; }
+.section:nth-child(5) { animation-delay: 0.4s; }
+.section:nth-child(6) { animation-delay: 0.5s; }
+.section:nth-child(7) { animation-delay: 0.6s; }
+
+/* ===== PRINT STYLES ===== */
+@media print {
+    body {
+        background: none;
+        padding: 0;
+        font-size: 12pt;
+    }
+    
+    .resume-container {
+        box-shadow: none;
+        max-width: 100%;
+    }
+    
+    .header {
+        padding: 20px;
+    }
+    
+    .section {
+        padding: 15px 20px;
+        page-break-inside: avoid;
+    }
+    
+    .no-print {
+        display: none;
+    }
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 768px) {
+    .header .contact-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .skills-container {
+        flex-direction: column;
+    }
+    
+    .timeline-header, .project-header {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .timeline-header .date, .certificate-meta {
+        margin-top: 5px;
+    }
+    
+    .section-title i {
+        font-size: 1.2rem;
+    }
+}

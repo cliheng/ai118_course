@@ -1,0 +1,318 @@
+/* 基础样式重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* 正文字体 */
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    scroll-behavior: smooth; /* 平滑滚动 */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* 导航栏样式 */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff; /* 主色调 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #007BFF; /* 辅助色 */
+}
+
+/* 首屏展示样式 */
+.hero {
+    background-color: #007BFF; /* 辅助色 */
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* 关于我、专业经历、技能、项目展示、教育背景、联系方式的通用样式 */
+.about, .experience, .skills, .projects, .education, .contact {
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+.about h2, .experience h2, .skills h2, .projects h2, .education h2, .contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #007BFF; /* 辅助色 */
+}
+
+.experience-item, .project-item, .education-item {
+    margin-bottom: 30px;
+}
+
+.experience-item h3, .project-item h3, .education-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.experience-item p, .project-item p, .education-item p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.experience-item ul, .project-item ul, .education-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experience-item ul li, .project-item ul li, .education-item ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-indent: 20px;
+}
+
+/* 技能列表样式 */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skill-item {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.skill-item:hover {
+    background-color: #007BFF; /* 辅助色 */
+    color: #ffffff;
+}
+
+/* 项目展示样式 */
+.project-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.project-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.project-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.project-item ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-indent: 20px;
+}
+
+/* 联系方式样式 */
+.contact {
+    background-color: #007BFF; /* 辅助色 */
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-info div {
+    font-size: 18px;
+}
+
+.contact-info div span {
+    font-weight: bold;
+}
+
+/* 页脚样式 */
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .navbar .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .nav-links li {
+        margin: 5px 0;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero h2 {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .skills-list {
+        justify-content: space-around;
+    }
+
+    .skill-item {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar .container {
+        padding: 0 10px;
+    }
+
+    .hero {
+        padding: 30px 0;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .about h2, .experience h2, .skills h2, .projects h2, .education h2, .contact h2 {
+        font-size: 24px;
+    }
+
+    .experience-item h3, .project-item h3, .education-item h3 {
+        font-size: 20px;
+    }
+
+    .experience-item p, .project-item p, .education-item p {
+        font-size: 16px;
+    }
+
+    .experience-item ul li, .project-item ul li, .education-item ul li {
+        font-size: 16px;
+    }
+
+    .skill-item {
+        font-size: 16px;
+    }
+
+    .contact h2 {
+        font-size: 24px;
+    }
+
+    .contact-info div {
+        font-size: 14px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
