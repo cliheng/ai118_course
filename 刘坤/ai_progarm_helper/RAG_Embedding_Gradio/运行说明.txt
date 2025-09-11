@@ -1,0 +1,47 @@
+RAG聊天系统运行说明
+
+重要提醒：首次运行必须先初始化数据库！
+
+=== 推荐方案：使用简化版本 ===
+1. 安装依赖：
+   pip install gradio==4.28.0 openai requests chromadb numpy
+
+2. 初始化数据库：
+   python chroma.py
+
+3. 启动简化版程序：
+   python simple_main.py
+   （这个版本兼容性更好，避免Gradio版本问题）
+
+=== 备用方案：完整版本 ===
+如果遇到Gradio兼容性问题，请：
+1. 降级Gradio版本：
+   pip install gradio==4.28.0 --force-reinstall
+
+2. 运行完整版：
+   python main.py
+
+=== 自动启动方案 ===
+运行启动脚本（自动处理所有步骤）：
+python start.py
+
+=== 访问系统 ===
+程序启动后，会显示访问地址，通常是：
+- http://127.0.0.1:7860
+- 或者显示的公网地址（如果使用share=True）
+
+=== 故障排除 ===
+1. 如果提示"数据库未初始化"：
+   python chroma.py
+
+2. 如果Gradio版本问题：
+   pip install gradio==4.28.0 --force-reinstall
+
+3. 如果ChromaDB连接失败：
+   确保ChromaDB服务运行在8000端口
+
+4. 测试API连接：
+   python test_api.py
+
+5. 测试数据库：
+   python test_database.py 
