@@ -1,0 +1,7 @@
+127.0.0.1
+8000
+Flash.py
+.gradio
+__pycache__
+chroma
+embedding.py
