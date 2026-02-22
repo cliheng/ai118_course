@@ -1,0 +1,13 @@
+# api\url
+def bigmodel_api_key():
+    return "1282fc4154bb4c7e9676b8c8456e0883.HEW4kqLl1r6gcheZ"
+def bigmodel_base_url():
+    return "https://open.bigmodel.cn/api/paas/v4"
+def bailian_api_key():
+    return "sk-ef3a8be14a854f1ebc4cfaf5ec611899"
+def bailian_base_url():
+    return "https://dashscope.aliyuncs.com/compatible-mode/v1"
+def api2d_api_key():
+    return "fk233463-7eIHHlosDfNHNZP8RifJ9XdZgkOIwfP3"
+def api2d_base_url():
+    return "https://oa.api2d.net"
